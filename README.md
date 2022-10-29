@@ -1,4 +1,4 @@
-# CP
+# Coding challenges
 Competitive programming problems solved everyday
 
 In this repository I will be posting solutions to the problems related to competitive programming from various coding platforms such as leetcode, codeforces, cses.fi, etc...
