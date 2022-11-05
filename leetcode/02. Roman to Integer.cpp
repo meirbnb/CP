@@ -10,11 +10,11 @@ public:
         m['C'] = 100;
         m['D'] = 500;
         m['M'] = 1000;
-        int prev = 0;
+        int nxt = 0;
         for (int i=0; i<s.length(); i++){
             int cur  = m[s[i]];
-            int prev = m[s[i+1]];
-            if (cur < prev)
+            int nxt  = m[s[i+1]];
+            if (cur < nxt)
                 ans -= cur;
             else
                 ans += cur;
