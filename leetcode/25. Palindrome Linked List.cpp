@@ -7,18 +7,18 @@ public:
             b = b->next->next;
             a = a->next;
         }
-        ListNode* r = nullptr;
+        ListNode* tail = nullptr;
         while(a){
             ListNode* nxt = a->next;
-            a->next = r;
-            r = a;
+            a->next = tail;
+            tail = a;
             a = nxt;
         }
-        while(head && r){
-            if (head->val != r->val)
+        while(head && tail){
+            if (head->val != tail->val)
                 return false;
             head = head->next;
-            r = r->next;
+            tail = tail->next;
         }
         return true;
     }
