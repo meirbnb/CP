@@ -9,13 +9,13 @@ public:
 	            int m = l + (r - l) / 2;
 	
 	            if (a[m - 1] < a[m] && a[m] > a[m + 1])
-			        return m;
+			    return m;
 	
 	            if (a[m - 1] < a[m] && a[m] < a[m + 1])
-			        return solve(a, m, r);
+			    return solve(a, m, r);
 	
 	            if (a[m - 1] > a[m] && a[m] > a[m + 1])
-			        return solve(a, l, m);
+			    return solve(a, l, m);
 	    
 	        }
 
