@@ -9,4 +9,4 @@ Leetcode problems explanations are available at: https://docs.google.com/documen
 
 Miscellaneous problems explained at: https://docs.google.com/document/d/1xoG6jzEShbMyDbL4dW7XxVOo-Qbu5qqmPmMQrYI82y0/edit?usp=sharing
 
-If you have questions or want me to review your code contact me @meirbnb on (insta/tele)gram
+If you have questions or want me to review your code contact me @meirbnb on telegram
